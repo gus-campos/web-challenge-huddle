@@ -48,5 +48,5 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Github - [Add your name here](https://github.com/gus-campos)
-- LinkdIn - [@yourusername](https://www.linkedin.com/gus-campos)
+- Github - [gus-campos](https://github.com/gus-campos)
+- LinkdIn - [@gus-campos](https://www.linkedin.com/in/gus-campos)
