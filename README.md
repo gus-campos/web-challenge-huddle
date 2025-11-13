@@ -15,6 +15,9 @@ Usuários deverão ser capazes de:
 
 ### Screenshot
 
+|<img width="1439" height="965" alt="image" src="https://github.com/user-attachments/assets/883c4ce4-d49a-499e-a4db-8d2d9bcf39b9" /> | <img width="612" height="901" alt="image" src="https://github.com/user-attachments/assets/c5be20e8-7367-41cc-9af4-c87ae2cf0144" /> |
+|-|-|
+
 ### Links
 
 - Live Site: [Github Page](https://your-live-site-url.com)
