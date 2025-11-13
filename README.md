@@ -8,16 +8,16 @@ Essa é uma solução para [Huddle landing page with single introductory section
 
 ### Desafio
 
-Users should be able to:
+Usuários deverão ser capazes de:
 
-- Desenvolver um layout com ótima responsividade
+- Ver um layout com ótima responsividade
 - Ver estados interativos com hover do cursor
 
 ### Screenshot
 
 ### Links
 
-- Live Site URL: [Github Page](https://your-live-site-url.com)
+- Live Site: [Github Page](https://your-live-site-url.com)
 
 ## My process
 
@@ -29,8 +29,6 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 ## Author
 
