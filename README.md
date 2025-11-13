@@ -20,7 +20,7 @@ Usuários deverão ser capazes de:
 
 ### Links
 
-- Live Site: [Github Page](https://your-live-site-url.com)
+- Live Site: [Github Page](https://gus-campos.github.io/web-challenge-huddle/)
 
 ## My process
 
