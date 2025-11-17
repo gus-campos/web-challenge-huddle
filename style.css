@@ -22,22 +22,15 @@
   color: white;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   font-family: "Poppins";
   font-weight: 600;
-}
-
-h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .logo {
-  margin: 30px;
+  margin: 30px 0 15px 35px;
+  width: 130px;
 }
 
 /* Estilo geral */
@@ -57,11 +50,23 @@ body {
 body {
   background-image: url(images/bg-mobile.svg);
   background-color: var(--primary-color);
-  background-size: cover;
-  flex: 1;
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
 
+  /* Para o footer */
   display: flex;
   flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Para empurrar o footer */
+  flex: 1;
 }
 
 .advertising {
@@ -69,46 +74,50 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
   text-align: center;
-  padding: 0 50px;
-  margin: 50px 0;
+
+  margin: 25px 35px;
+  gap: 60px;
+
+  max-width: 500px;
 }
 
-.content {
-  max-width: 400px;
+.ad-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.4em;
+}
+
+.ad-content h1,
+.ad-content p {
+  margin: 0;
 }
 
 .advertising img {
-  padding: 0 50px;
   width: 100%;
-  min-width: 450px;
-  max-width: 700px;
-  flex-shrink: 1;
-}
-
-.button-frame {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
 }
 
 .register-button {
-  width: 16em;
   font-size: 0.8em;
-  height: 3em;
+  width: 16em;
+  height: 3.2em;
   border-radius: 2em;
-  color: var(--primary-color);
+
   border-width: 0;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  color: var(--primary-color);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+
   cursor: pointer;
 }
 
 .socials {
   display: flex;
   justify-content: center;
-  margin: 50px 0px 50px 0px;
-  gap: 15px;
+  margin: 40px 0px;
+  gap: 10px;
   cursor: pointer;
 }
 
@@ -135,23 +144,40 @@ body {
 @media (min-width: 1024px) {
   body {
     background-image: url(images/bg-desktop.svg);
+    background-size: auto 100%;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 
   .advertising {
     display: flex;
-    flex-direction: row;
     text-align: start;
+    flex-direction: row;
     flex: 1 1;
-    padding: 0 150px;
+
+    max-width: unset;
+
+    max-width: 1300px;
   }
 
-  .button-frame {
-    justify-content: start;
+  .advertising img {
+    max-width: 50vw;
+  }
+
+  .ad-content {
+    align-items: start;
+  }
+
+  .register-button {
+    font-size: 1em;
+    width: 12em;
   }
 
   .socials {
     justify-content: right;
-    margin-right: 50px;
+    margin-right: 80px;
   }
 }
 
